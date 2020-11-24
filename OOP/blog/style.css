@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background-color: rosybrown;
+    position: sticky;
+}
+
+a {
+    padding: 10px;
+    background-color: skyblue;
+}
+
+a:hover {
+    background-color: slateblue;
+}
+
+nav a {
+    float: left;
+}
+
+.sign {
+    float: right;
+}
+
+header {
+    display: block;
+    background-image: url("https://i.pinimg.com/originals/14/cd/1f/14cd1fcf05ad082e4c93d19cc7cc3896.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#hdtext {
+    color: whitesmoke;
+    padding-top: 110px;
+    font-size: 5em;
+}
+
+#main {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: block;
+    width: 65%;
+    float: left;
+    border: 2px solid red;
+}
+
+.section {
+    border: 1px solid grey;
+    margin: 15px auto;
+    padding-bottom: 80%;
+    width: 90%;
+    overflow: hidden;
+}
+
+aside {
+    border: 2px solid grey;
+    width: 33%;
+    float: right
+}
+
+.aside {
+    border: 1px solid grey;
+    margin: 15px auto;
+    padding-bottom: 80%;
+    width: 90%;
+    overflow: hidden;
+}
+
+footer {
+    background-color: rgb(10, 4, 36);
+    height: 30px;
+    width: 100%;
+    clear: both;
+}
